@@ -46,7 +46,7 @@ export default function App() {
             ) : (
                 <Feedback 
                 good={value.good}
-                neatral={value.neutral}
+                neutral={value.neutral}
                 bad={value.bad}
                 total={totalFeedback}
                 positive={positiveFeedback}
